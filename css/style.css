@@ -150,29 +150,14 @@ footer{
 
 }
 /* pagina Acerca de Francia */
-/* 
-.navigation{
-    display: flex;
-    justify-content: center;
-    position: relative;
 
-}
-.navigation img{
-    position: absolute;
-}
-.navigation .viendo{
-    display: flex;
-    justify-content: center;
-} */
-
-
-/* .boot-img{
+.boot-img{
     height: 100px;
     width: 150px;
     position: relative;
     left: 0px;
 
-} */
+} 
 .inline{
     display: inline;
 }
@@ -188,27 +173,27 @@ footer{
     height: 300px;   
     width: 250px;}
 
-    .acerca{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .acerca div{
-        width: 50%;
-    }
-    .acerca div p{
-        font-size: 15px;
-    }
+.acerca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .acerca div img{
-        height: 500px;
-        width: 500px;
-    }
+.acerca div{
+    width: 50%;
+}
+.acerca div p{
+    font-size: 15px;
+}
+
+.acerca div img{
+    height: 500px;
+    width: 500px;
+}
 
 
 
-/* media queris */
+/* media queris de acerca de francia */
 
 @media screen and (max-width:768px){
 
@@ -280,7 +265,7 @@ footer{
     height: 800px;
 
 } 
-/* media queris */
+/* media queris destinos turisticos*/
 @media screen and (max-width:500px){
     .menunav{
         display: flex;
